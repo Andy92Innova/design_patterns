@@ -1,5 +1,5 @@
-﻿using System;
-using Domain;
+﻿using Domain;
+using System;
 
 namespace AppPatterns
 {
@@ -10,10 +10,11 @@ namespace AppPatterns
 
             IPattern _pattern;
 
-            _pattern = new AbstractFactoryPattern.Cliente();
+            //_pattern = new AbstractFactoryPattern.Cliente();
             //_pattern = new BuilderPattern.Cliente();
             //_pattern = new FactoryMethodPattern.Cliente();
-            
+            _pattern = new PrototypePattern.Cliente();
+
             _pattern.Main();
 
             Console.ReadKey();

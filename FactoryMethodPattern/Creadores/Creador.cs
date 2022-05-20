@@ -1,7 +1,4 @@
 ﻿using FactoryMethodPattern.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace FactoryMethodPattern.Creadores
 {
@@ -9,7 +6,8 @@ namespace FactoryMethodPattern.Creadores
     {
         public abstract IProducto FactoryMethod();
 
-        public string AlgunaOperacion() {
+        public string AlgunaOperacion()
+        {
             var producto = FactoryMethod();
             var resultado = "Creador: El mismo código que la clase creador tiene, solo que se ejecuta con " + producto.Operacion();
 

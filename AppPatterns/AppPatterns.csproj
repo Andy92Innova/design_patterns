@@ -10,6 +10,7 @@
     <ProjectReference Include="..\BuilderPattern\BuilderPattern.csproj" />
     <ProjectReference Include="..\Domain\Domain.csproj" />
     <ProjectReference Include="..\FactoryMethodPattern\FactoryMethodPattern.csproj" />
+    <ProjectReference Include="..\PrototypePattern\PrototypePattern.csproj" />
   </ItemGroup>
 
 </Project>

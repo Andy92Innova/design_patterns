@@ -9,7 +9,8 @@ namespace AbstractFactoryPattern.Productos
             return "Resultado del producto B2";
         }
 
-        public string OtroUsoFuncionB(IAbstractProductoA colaborador) {
+        public string OtroUsoFuncionB(IAbstractProductoA colaborador)
+        {
             var resultA = colaborador.UsoFuncionA();
             return $"Este es el resultado del producto B1 con colaboración de ({resultA})";
         }

@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace BuilderPattern.Productos
 {
@@ -8,14 +6,17 @@ namespace BuilderPattern.Productos
     {
         private List<string> _partes = new List<string>();
 
-        public void Add(string parte) {
+        public void Add(string parte)
+        {
             this._partes.Add(parte);
         }
 
-        public string ListaDePartes() {
+        public string ListaDePartes()
+        {
             var str = string.Empty;
 
-            for (int i = 0; i < this._partes.Count; i++) {
+            for (int i = 0; i < this._partes.Count; i++)
+            {
                 str += this._partes[i] + ", ";
             }
 

@@ -1,8 +1,5 @@
 ﻿using BuilderPattern.Interfaces;
 using BuilderPattern.Productos;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace BuilderPattern.Builders
 {
@@ -11,11 +8,13 @@ namespace BuilderPattern.Builders
 
         private Producto _producto;
 
-        public BuilderConcreto() {
+        public BuilderConcreto()
+        {
             Reset();
         }
 
-        public void Reset() {
+        public void Reset()
+        {
             _producto = new Producto();
         }
 
@@ -34,14 +33,15 @@ namespace BuilderPattern.Builders
             _producto.Add("PARTE C");
         }
 
-        public Producto GetProducto() {
+        public Producto GetProducto()
+        {
             var producto = _producto;
-            
+
             Reset();
-            
+
             return producto;
         }
-             
+
 
     }
 }

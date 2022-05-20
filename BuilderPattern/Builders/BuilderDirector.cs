@@ -1,7 +1,4 @@
 ﻿using BuilderPattern.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace BuilderPattern.Builders
 {
@@ -9,15 +6,18 @@ namespace BuilderPattern.Builders
     {
         private IBuilder _constructor;
 
-        public IBuilder Constructor {
+        public IBuilder Constructor
+        {
             set { _constructor = value; }
         }
 
-        public void BuildPMV() {
+        public void BuildPMV()
+        {
             _constructor.BuildParteA();
         }
 
-        public void BuildFullPartes() {
+        public void BuildFullPartes()
+        {
             _constructor.BuildParteA();
             _constructor.BuildParteB();
             _constructor.BuildParteC();
