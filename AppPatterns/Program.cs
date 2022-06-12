@@ -13,7 +13,8 @@ namespace AppPatterns
             //_pattern = new AbstractFactoryPattern.Cliente();
             //_pattern = new BuilderPattern.Cliente();
             //_pattern = new FactoryMethodPattern.Cliente();
-            _pattern = new PrototypePattern.Cliente();
+            //_pattern = new PrototypePattern.Cliente();
+            _pattern = new SingletonPattern.Cliente();
 
             _pattern.Main();
 
