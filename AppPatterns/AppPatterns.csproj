@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -6,12 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AbstractFactoryPattern\AbstractFactoryPattern.csproj" />
-    <ProjectReference Include="..\AdaptarPattern\AdapterPattern.csproj" />
-    <ProjectReference Include="..\BuilderPattern\BuilderPattern.csproj" />
-    <ProjectReference Include="..\FactoryMethodPattern\FactoryMethodPattern.csproj" />
-    <ProjectReference Include="..\PrototypePattern\PrototypePattern.csproj" />
-    <ProjectReference Include="..\SingletonPattern\SingletonPattern.csproj" />
+    <ProjectReference Include="..\CreationalDesignPattern\AbstractFactoryPattern\AbstractFactoryPattern.csproj" />
+    <ProjectReference Include="..\CreationalDesignPattern\BuilderPattern\BuilderPattern.csproj" />
+    <ProjectReference Include="..\CreationalDesignPattern\FactoryMethodPattern\FactoryMethodPattern.csproj" />
+    <ProjectReference Include="..\CreationalDesignPattern\PrototypePattern\PrototypePattern.csproj" />
+    <ProjectReference Include="..\CreationalDesignPattern\SingletonPattern\SingletonPattern.csproj" />
+    <ProjectReference Include="..\StructuralDesignPattern\AdaptarPattern\AdapterPattern.csproj" />
+    <ProjectReference Include="..\StructuralDesignPattern\BridgePattern\BridgePattern.csproj" />
   </ItemGroup>
 
 </Project>

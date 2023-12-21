@@ -17,7 +17,8 @@ namespace AppPatterns
                 new FactoryMethodPattern(),
                 new PrototypePattern(),
                 new SingletonPattern(),
-                new AdapterPattern()
+                new AdapterPattern(),
+                new BridgePattern()
             };
 
             foreach (var pattern in patterns)
