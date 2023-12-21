@@ -16,7 +16,8 @@ This repository is divided in three categories:
 >
 > ### Structural Designs Patterns
 >
-> Every time I write a new pattern, I will put it here.
+> + Adapter
+> 
 > ### Behavioral Desings Patterns
 >
 > Every time I write a new pattern, I will put it here.
