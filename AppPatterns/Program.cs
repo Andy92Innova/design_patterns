@@ -1,5 +1,7 @@
 ﻿using Domain;
 using System;
+using System.Collections.Generic;
+using Pattern;
 
 namespace AppPatterns
 {
@@ -8,15 +10,23 @@ namespace AppPatterns
         static void Main(string[] args)
         {
 
-            IPattern _pattern;
+            List<IPattern> patterns = new List<IPattern>
+            {
+                new AbstractFactoryPattern(),
+                new BuilderPattern(),
+                new FactoryMethodPattern(),
+                new PrototypePattern(),
+                new SingletonPattern(),
+                new AdapterPattern()
+            };
 
-            //_pattern = new AbstractFactoryPattern.Cliente();
-            //_pattern = new BuilderPattern.Cliente();
-            //_pattern = new FactoryMethodPattern.Cliente();
-            //_pattern = new PrototypePattern.Cliente();
-            _pattern = new SingletonPattern.Cliente();
+            foreach (var pattern in patterns)
+            {
+                Console.WriteLine($"\n {"".PadLeft(10, '#')} Begin Pattern {pattern.GetType().Name} {"".PadRight(10, '#')}\n");
+                pattern.Main();
+                Console.WriteLine($"\n {"".PadLeft(10, '#')} End Pattern {pattern.GetType().Name} {"".PadRight(10, '#')}\n");
+            }
 
-            _pattern.Main();
 
             Console.ReadKey();
         }

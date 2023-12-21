@@ -1,7 +1,7 @@
-﻿using PrototypePattern.Interfaces;
+﻿using Pattern.Prototype.Interfaces;
 using System;
 
-namespace PrototypePattern.Modelos
+namespace Pattern.Prototype.Modelos
 {
     internal class Persona : IClonable<Persona>
     {

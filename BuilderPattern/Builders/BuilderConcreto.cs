@@ -1,7 +1,7 @@
-﻿using BuilderPattern.Interfaces;
-using BuilderPattern.Productos;
+﻿using Pattern.Builder.Interfaces;
+using Pattern.Builder.Productos;
 
-namespace BuilderPattern.Builders
+namespace Pattern.Builder.Builders
 {
     internal class BuilderConcreto : IBuilder
     {

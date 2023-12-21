@@ -1,4 +1,4 @@
-﻿namespace BuilderPattern.Interfaces
+﻿namespace Pattern.Builder.Interfaces
 {
     interface IBuilder
     {

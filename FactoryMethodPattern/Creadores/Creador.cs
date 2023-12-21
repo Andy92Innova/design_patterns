@@ -1,6 +1,6 @@
-﻿using FactoryMethodPattern.Interfaces;
+﻿using Pattern.FactoryMethod.Interfaces;
 
-namespace FactoryMethodPattern.Creadores
+namespace Pattern.FactoryMethod.Creadores
 {
     abstract class Creador
     {

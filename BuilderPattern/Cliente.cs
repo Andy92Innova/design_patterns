@@ -1,10 +1,10 @@
-﻿using BuilderPattern.Builders;
+﻿using Pattern.Builder.Builders;
 using Domain;
 using System;
 
-namespace BuilderPattern
+namespace Pattern
 {
-    public class Cliente : IPattern
+    public class BuilderPattern : IPattern
     {
         public void Main()
         {
@@ -27,10 +27,6 @@ namespace BuilderPattern
             builder.BuildParteA();
             builder.BuildParteC();
             Console.WriteLine(builder.GetProducto().ListaDePartes());
-
-            Console.ReadKey();
-
-
         }
     }
 }

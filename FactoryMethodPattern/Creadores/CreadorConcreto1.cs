@@ -1,7 +1,8 @@
-﻿using FactoryMethodPattern.Creadores;
-using FactoryMethodPattern.Interfaces;
+﻿using Pattern.FactoryMethod.Creadores;
+using Pattern.FactoryMethod.Interfaces;
+using Pattern.FactoryMethod.Productos;
 
-namespace FactoryMethodPattern
+namespace Pattern.FactoryMethod.Creadores
 {
     class CreadorConcreto1 : Creador
     {

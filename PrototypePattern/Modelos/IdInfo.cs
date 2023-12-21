@@ -1,4 +1,4 @@
-﻿namespace PrototypePattern.Modelos
+﻿namespace Pattern.Prototype.Modelos
 {
     internal class IdInfo
     {

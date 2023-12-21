@@ -1,10 +1,10 @@
 ﻿using Domain;
-using PrototypePattern.Modelos;
+using Pattern.Prototype.Modelos;
 using System;
 
-namespace PrototypePattern
+namespace Pattern
 {
-    public class Cliente : IPattern
+    public class PrototypePattern : IPattern
     {
         public void Main()
         {

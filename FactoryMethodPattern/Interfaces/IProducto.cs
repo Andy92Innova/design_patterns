@@ -1,4 +1,4 @@
-﻿namespace FactoryMethodPattern.Interfaces
+﻿namespace Pattern.FactoryMethod.Interfaces
 {
     public interface IProducto
     {

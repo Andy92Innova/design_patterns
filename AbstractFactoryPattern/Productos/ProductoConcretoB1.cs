@@ -1,6 +1,6 @@
-﻿using AbstractFactoryPattern.Interfaces;
+﻿using Pattern.AbstractFactory.Interfaces;
 
-namespace AbstractFactoryPattern.Productos
+namespace Pattern.AbstractFactory.Productos
 {
     internal class ProductoConcretoB1 : IAbstractProductoB
     {

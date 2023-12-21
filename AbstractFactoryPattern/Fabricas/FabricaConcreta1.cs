@@ -1,7 +1,7 @@
-﻿using AbstractFactoryPattern.Interfaces;
-using AbstractFactoryPattern.Productos;
+﻿using Pattern.AbstractFactory.Interfaces;
+using Pattern.AbstractFactory.Productos;
 
-namespace AbstractFactoryPattern.Fabricas
+namespace Pattern.AbstractFactory.Fabricas
 {
     class FabricaConcreta1 : IAbstractFactory
     {

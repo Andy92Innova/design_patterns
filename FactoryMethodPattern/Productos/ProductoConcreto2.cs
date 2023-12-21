@@ -1,6 +1,6 @@
-﻿using FactoryMethodPattern.Interfaces;
+﻿using Pattern.FactoryMethod.Interfaces;
 
-namespace FactoryMethodPattern
+namespace Pattern.FactoryMethod.Productos
 {
     public class ProductoConcreto2 : IProducto
     {

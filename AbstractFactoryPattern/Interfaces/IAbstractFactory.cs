@@ -1,4 +1,4 @@
-﻿namespace AbstractFactoryPattern.Interfaces
+﻿namespace Pattern.AbstractFactory.Interfaces
 {
     interface IAbstractFactory
     {

@@ -1,11 +1,11 @@
-﻿using AbstractFactoryPattern.Fabricas;
-using AbstractFactoryPattern.Interfaces;
+﻿using Pattern.AbstractFactory.Fabricas;
+using Pattern.AbstractFactory.Interfaces;
 using Domain;
 using System;
 
-namespace AbstractFactoryPattern
+namespace Pattern
 {
-    public class Cliente : IPattern
+    public class AbstractFactoryPattern : IPattern
     {
         public void Main()
         {

@@ -1,4 +1,4 @@
-﻿namespace PrototypePattern.Interfaces
+﻿namespace Pattern.Prototype.Interfaces
 {
     internal interface IClonable<out T> where T : class
     {

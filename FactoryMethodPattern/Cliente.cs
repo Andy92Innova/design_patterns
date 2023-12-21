@@ -1,10 +1,10 @@
 ﻿using Domain;
-using FactoryMethodPattern.Creadores;
+using Pattern.FactoryMethod.Creadores;
 using System;
 
-namespace FactoryMethodPattern
+namespace Pattern
 {
-    public class Cliente : IPattern
+    public class FactoryMethodPattern : IPattern
     {
         public void Main()
         {

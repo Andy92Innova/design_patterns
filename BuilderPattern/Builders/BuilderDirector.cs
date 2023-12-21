@@ -1,6 +1,6 @@
-﻿using BuilderPattern.Interfaces;
+﻿using Pattern.Builder.Interfaces;
 
-namespace BuilderPattern.Builders
+namespace Pattern.Builder.Builders
 {
     internal class BuilderDirector
     {
