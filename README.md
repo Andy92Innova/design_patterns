@@ -17,6 +17,7 @@ This repository is divided in three groups:
 > ### Structural Design Patterns
 >
 > + Adapter
+> + Bridge
 > 
 > ### Behavioral Desing Patterns
 >
