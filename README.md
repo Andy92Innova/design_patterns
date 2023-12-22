@@ -2,11 +2,11 @@
 
 ## Description
 
-This repository will be a container or guideline to work using different designs patterns in my favorite programing language **C#**. I hope you can enjoy learning as much as I do.
+This repository will be a container or guideline to work using different design patterns in my favorite programing language **C#**. I hope you can enjoy learning as much as I do.
 
-This repository is divided in three categories:
+This repository is divided in three groups:
 
-> ### Creatinal Designs Pattern 
+> ### Creational Design Patterns
 >
 > + Factory
 > + Abstract Factory
@@ -14,11 +14,11 @@ This repository is divided in three categories:
 > + Builder
 > + Singleton
 >
-> ### Structural Designs Patterns
+> ### Structural Design Patterns
 >
 > + Adapter
 > 
-> ### Behavioral Desings Patterns
+> ### Behavioral Desing Patterns
 >
 > Every time I write a new pattern, I will put it here.
 
