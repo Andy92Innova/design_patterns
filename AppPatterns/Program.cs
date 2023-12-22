@@ -18,7 +18,8 @@ namespace AppPatterns
                 new PrototypePattern(),
                 new SingletonPattern(),
                 new AdapterPattern(),
-                new BridgePattern()
+                new BridgePattern(),
+                new CompositePattern()
             };
 
             foreach (var pattern in patterns)

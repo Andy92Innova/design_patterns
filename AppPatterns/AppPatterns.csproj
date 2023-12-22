@@ -6,13 +6,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CreationalDesignPattern\AbstractFactoryPattern\AbstractFactoryPattern.csproj" />
-    <ProjectReference Include="..\CreationalDesignPattern\BuilderPattern\BuilderPattern.csproj" />
-    <ProjectReference Include="..\CreationalDesignPattern\FactoryMethodPattern\FactoryMethodPattern.csproj" />
-    <ProjectReference Include="..\CreationalDesignPattern\PrototypePattern\PrototypePattern.csproj" />
-    <ProjectReference Include="..\CreationalDesignPattern\SingletonPattern\SingletonPattern.csproj" />
-    <ProjectReference Include="..\StructuralDesignPattern\AdaptarPattern\AdapterPattern.csproj" />
-    <ProjectReference Include="..\StructuralDesignPattern\BridgePattern\BridgePattern.csproj" />
+    <ProjectReference Include="..\CreationalDesignPattern\AbstractFactoryPattern\Pattern.AbstractFactory.csproj" />
+    <ProjectReference Include="..\CreationalDesignPattern\BuilderPattern\Pattern.Builder.csproj" />
+    <ProjectReference Include="..\CreationalDesignPattern\FactoryMethodPattern\Pattern.FactoryMethod.csproj" />
+    <ProjectReference Include="..\CreationalDesignPattern\PrototypePattern\Pattern.Prototype.csproj" />
+    <ProjectReference Include="..\CreationalDesignPattern\SingletonPattern\Pattern.Singleton.csproj" />
+    <ProjectReference Include="..\StructuralDesignPattern\AdaptarPattern\Pattern.Adapter.csproj" />
+    <ProjectReference Include="..\StructuralDesignPattern\BridgePattern\Pattern.Bridge.csproj" />
+    <ProjectReference Include="..\StructuralDesignPattern\Pattern.Composite\Pattern.Composite.csproj" />
   </ItemGroup>
 
 </Project>
