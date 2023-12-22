@@ -12,14 +12,18 @@ namespace AppPatterns
 
             List<IPattern> patterns = new List<IPattern>
             {
+                //Creational
                 new AbstractFactoryPattern(),
                 new BuilderPattern(),
                 new FactoryMethodPattern(),
                 new PrototypePattern(),
                 new SingletonPattern(),
+                //Structural
                 new AdapterPattern(),
                 new BridgePattern(),
-                new CompositePattern()
+                new CompositePattern(),
+                new DecoratorPattern()
+                //Behavioral
             };
 
             foreach (var pattern in patterns)

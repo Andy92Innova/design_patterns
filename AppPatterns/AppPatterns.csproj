@@ -14,6 +14,7 @@
     <ProjectReference Include="..\StructuralDesignPattern\AdaptarPattern\Pattern.Adapter.csproj" />
     <ProjectReference Include="..\StructuralDesignPattern\BridgePattern\Pattern.Bridge.csproj" />
     <ProjectReference Include="..\StructuralDesignPattern\Pattern.Composite\Pattern.Composite.csproj" />
+    <ProjectReference Include="..\StructuralDesignPattern\Pattern.Decorator\Pattern.Decorator.csproj" />
   </ItemGroup>
 
 </Project>
