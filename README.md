@@ -19,6 +19,7 @@ This repository is divided in three groups:
 > + Adapter
 > + Bridge
 > + Composite
+> + Decorator
 > 
 > ### Behavioral Desing Patterns
 >
