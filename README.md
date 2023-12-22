@@ -18,6 +18,7 @@ This repository is divided in three groups:
 >
 > + Adapter
 > + Bridge
+> + Composite
 > 
 > ### Behavioral Desing Patterns
 >
